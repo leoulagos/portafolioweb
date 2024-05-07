@@ -1,0 +1,138 @@
+<!-- <!DOCTYPE html> -->
+
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Leandro Velasquez</title>
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="assets/image/programacion.png" type="image/x-icon">
+  <!-- Conexion Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <!-- Barra De Navegacion -->
+
+  <section class="nav-bar">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar fixed-top navbar-expand-lg ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="assets/image/programacion.png" alt="logo de programacion" width="50px">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#sobre-mi">Sobre Mi</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#proyectos">Proyectos</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contacto">Contacto</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Presentacion -->
+
+  <section class="presentacion align-items-stretch">
+    <div class="container-fluid">
+      <img class="rounded-cicle" src="assets/image/perfil.png" alt="" width="200px">
+      <h1>Leandro Velasquez</h1>
+      <h4>Tecnico En Informatica</h4>
+    </div>
+  </section>
+
+  <!-- Sobre Mi -->
+
+  <section class="sobre-mi" id="sobre-mi">
+    <div class="container container-fluid">
+      <h2>Sobre Mi</h2>
+      <p>¡Hola! Me llamo Leandro Velasquez y tengo conocimientos en HTML, CSS y Bootstrap,
+        Mi objetivo es crear páginas web que no solo sean estéticamente agradables, 
+        sino también funcionales y fáciles de usar. Siempre estoy buscando aprender y mejorar, y
+        actualmente estoy centrando mis esfuerzos en perfeccionar mis habilidades de diseño y desarrollo web.</p>
+        <img class="" src="assets/image/htmlcssybos.png" alt="imagen de html css y Bootstrap" width="200px">
+    </div>
+  </section>
+
+  <!-- Proyectos -->
+
+  <section class="proyectos" id="proyectos">
+    <h2>Proyectos</h2>
+    <h4>Estos son algunos proyectos que he realizado:</h4>
+    <div class="container text-center con-proyecto">
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 12rem;">
+            <img src="assets/image/proyecto.png" class="card-img-top" alt="Esta es la imagen del proyecto">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 1</h5>
+              <p class="card-text">Este es un texto de ejemplo</p>
+              <a href="#" class="btn btn-primary">Ver Proyecto</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 12rem;">
+            <img src="assets/image/proyecto.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Proyecto 2</h5>
+              <p class="card-text">Este es un texto de ejemplo</p>
+              <a href="#" class="btn btn-primary">Ver Proyecto</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+
+  <section class="contacto" id="contacto">
+    <div class="d-grid gap-2 d-md-block">
+      <h3>Formulario de Contacto</h3>
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="nombre">Nombre:</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre" name="nombre" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Correo electrónico:</label>
+            <input type="email" class="form-control" id="email" placeholder="Ingresa tu correo electrónico" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea class="form-control" rows="5" id="mensaje" placeholder="Ingresa tu mensaje" name="mensaje" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </a>
+    </div>
+  </section>
+
+  <script src="assets/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
